@@ -142,16 +142,15 @@ nav {
       background-color: #f10e34; }
   nav .nav-categories {
     padding: 17px 15.6% 20px 20px; }
-    nav .nav-categories .menu {
-      display: none;
+    nav .nav-categories .menu{display: none; cursor: pointer;}
+    nav .nav-categories .menu div{
       width: 30px;
-      height: 15px;
-      background: transparent;
-      border-top: 3px solid #fff;
-      border-bottom: 3px solid #fff;
-      box-shadow: 0 9px 0 0 #f10e34, 0 12px 0 0 #fff;
-      margin: 0 auto;
-      cursor: pointer; }
+      height: 3px;
+      background: #fff;
+       }
+      nav .nav-categories .menu div+div{
+        margin-top: 9px;
+      }
     nav .nav-categories a {
       font-weight: bold; }
       nav .nav-categories a span {
@@ -722,7 +721,7 @@ footer {
   nav ul {
     text-align: center; }
     nav ul .nav-categories {
-      padding: 10px 10px 20px 10px; }
+      padding: 10px; }
       nav ul .nav-categories .menu {
         display: block; }
     nav ul li a {
@@ -799,9 +798,17 @@ footer {
     display: none; }
 
   .second-column .offer {
-    background-image: none; }
+    background-image: none; 
+  text-align: center;}
     .second-column .offer .heading {
-      text-align: center; }
+      text-align: center; 
+      margin: 0 auto;
+      float: none;
+    }
+    .second-column .offer .heading h5{
+      text-align: center; 
+      float: none;
+    }
 
   .brands {
     display: none; }
