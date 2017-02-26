@@ -69,10 +69,13 @@ header{
 }
 
 .logo{
-	width: 228px;
-	height: 73px;
-	background: url(../img/logo.jpg) no-repeat;
+	width: 17.7%;
+	height: auto;
 	margin: -15px auto 0;
+}
+.logo img{
+	width: 100%;
+	height: auto;
 }
 .social{
 	margin-right: 52px;
@@ -922,6 +925,10 @@ header{
 	.footer-wrap{
 		padding: auto 0;
 	}
+	.top-bar .logo{
+		width: 30%;
+		height: auto;
+	}
 	.header-bar ul li,
 	.header-bar ul span{
 		display: none;
@@ -1031,13 +1038,17 @@ header{
 	}/*768px*/
 
 	@media only screen and (max-width:490px){
+		.touch-menu{
+			display: block;
+			float: left;
+		}
+		.logo{
+			float: right;
+		}
 		.selecter,
 		.slider ul,
 		.slider .nav{
 			display: none;
-		}
-		.touch-menu{
-			float: none;
 		}
 		.support .sup-item h4{
 			font-size: 14px;
