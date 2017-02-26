@@ -795,6 +795,11 @@ footer {
   .second-column .new-products .items .item, .second-column .latest-products .items .item, .second-column .featured .items .item {
     width: 100%;
     float: none; }
+    .second-column .new-products .items .item+.item,
+    .second-column .latest-products .items .item+.item
+    {
+      margin-left: 0;
+    }
   .second-column .new-products .nav, .second-column .latest-products .nav, .second-column .featured .nav {
     display: none; }
 
