@@ -783,7 +783,8 @@ footer {
       height: 295px; }
     .slider-container .heading {
       position: absolute;
-      top: 50px; }
+      top: 20px;
+      left:10px; }
       .slider-container .heading h1 {
         font-size: 40px; }
       .slider-container .heading span, .slider-container .heading p {
