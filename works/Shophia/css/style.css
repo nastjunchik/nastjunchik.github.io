@@ -841,30 +841,22 @@ header{
 	}
 	.touch-menu{
 		float:left;
-		width: 36px;
-		height: 36px;
-		border-bottom: 4px solid #000;
-		border-top: 4px solid #000;
-		-webkit-box-shadow: inset 0px 12px 0px 0px #fff,
-				inset 0px 16px 0px 0px #000;
-			-moz-box-shadow: inset 0px 12px 0px 0px #fff,
-				inset 0px 16px 0px 0px #000;
-				box-shadow: inset 0px 12px 0px 0px #fff,
-					inset 0px 16px 0px 0px #000;
+		margin-top: 2px;
 	}
-	.touch-menu:hover{
-		border-color:#f09d66;
-		-webkit-box-shadow: inset 0px 12px 0px 0px #fff,
-				inset 0px 16px 0px 0px #f09d66;
-			-moz-box-shadow: inset 0px 12px 0px 0px #fff,
-				inset 0px 16px 0px 0px #f09d66;
-				box-shadow: inset 0px 12px 0px 0px #fff,
-					inset 0px 16px 0px 0px #f09d66;
-		}
+	.touch-menu div{
+		width: 36px;
+		height: 4px;
+		background: #000;
+	}
+	.touch-menu div+div{
+		margin-top: 9px;
+	}
+	.touch-menu:hover div{
+		background:#f09d66;
+	}
 	
 	.slider{
 		width: 100%;
-
 	}
 	.support .support-icons{
 		display: none;
@@ -1039,7 +1031,7 @@ header{
 
 	@media only screen and (max-width:490px){
 		.touch-menu{
-			display: block;
+			display: inline-block;
 			float: left;
 		}
 		.logo{
