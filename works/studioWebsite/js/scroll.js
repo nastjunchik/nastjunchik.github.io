@@ -7,12 +7,15 @@ $(document).ready(function(){
 
         $('body,html').animate({scrollTop: top}, 800);
     });
-    $('nav').removeClass('default');
-    $(window).scroll(function(){
-        if($(this).scrollTop() > 100){
-            $('nav').addClass('default').fadeIn('fast');
-        }else{
-            $('nav').removeClass('default').fadeIn('fast');
-        }
-    });
+
+    if($(window).width() > 960){
+        $('nav').removeClass('default');
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 100){
+                $('nav').addClass('default').fadeIn('fast');
+            }else{
+                $('nav').removeClass('default').fadeIn('fast');
+            }
+        });
+    }
 });

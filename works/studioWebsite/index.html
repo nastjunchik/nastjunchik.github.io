@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Studio Website</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Slider-->
@@ -20,7 +20,7 @@
 		<div class="container">
 			<header>
 				<div class="center clearfix">
-					<a href="#" id="logo"><div class="logo left"></div></a>
+					<div class="logo left"><a href="#" id="logo"><img src="img/logo.png" alt="logo"></a></div>
 					<div class="social right">
 						<a href="#openModal" class="social-icon fb">&nbsp;</a>
 						<a href="#" class="social-icon tw">&nbsp;</a>
@@ -44,10 +44,12 @@
 							><li><a href="#openModal" class="btn">contact us</a></li>
 						</ul>
 					</div>
-					<form class="right">
-					  <input type="search" name="search">
-					  <button class="button" type="submit" value="Search">Search</button>
-					</form>
+					<div class="search">
+						<form class="right">
+						  <input type="search" name="search">
+						  <button class="button" type="submit" value="Search">Search</button>
+						</form>
+					</div>
 				</div>
 				<div class="dash"><span></span></div>
 			</nav>
@@ -57,7 +59,7 @@
 					<div><img src="img/img-2.jpg" alt="img"></div>
 					<div><img src="img/img-3.jpg" alt="img"></div>
 				</div>
-				<div class="slide-shadow" id="intro"></div>
+				<div class="slide-shadow" id="intro"><img src="img/slide-shadow.png" alt="shadow"></div>
 			</div><!--slider-wrap-->
 			<div class="intro center">
 				<h1>Hi, and welcome to the Predators Studio</h1>
@@ -89,48 +91,45 @@
 					<div class="img">
 						<div class="launch">launch project</div>
 						<img src="img/img-4.jpg" alt="">
-
+					</div>
 						<div class="img-shadow"></div>
-						<div class="like"><p>200</p></div>
+						<div class="like"><div></div><p>200</p></div>
 						<div class="proj-descr">
 
 							<a href="#"><h2>The Up Project</h2></a>
 							<div class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sem massa, rhoncus in eleifend vitae, rutrum a arcu.</div>
 						</div>
-					</div>
 				</div>
 				<div class="project-item left">
 					<div class="img">
 						<div class="launch">launch project</div>
 						<img src="img/img-5.jpg" alt="">
-
+					</div>
 						<div class="img-shadow"></div>
-						<div class="like"><p>78</p></div>
+						<div class="like"><div></div><p>78</p></div>
 						<div class="proj-descr">
 
 							<a href="#"><h2>The Cars Project</h2></a>
 							<div class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sem massa, rhoncus in eleifend vitae, rutrum a arcu.</div>
 						</div>
-					</div>
 				</div>
 				<div class="project-item left">
 					<div class="img">
 						<div class="launch">launch project</div>
 						<img src="img/img-6.jpg" alt="">
-
+					</div>
 						<div class="img-shadow"></div>
-						<div class="like"><p>163</p></div>
+						<div class="like"><div></div><p>163</p></div>
 						<div class="proj-descr">
 
 							<a href="#"><h2>The Nemo Project</h2></a>
 							<div class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sem massa, rhoncus in eleifend vitae, rutrum a arcu.</div>
 						</div>
-					</div>
 				</div>
 			</div><!--projects-->
-		<div class="twit center" id="twit">
-			<div class="twit-icon"></div>
-			<p class="cap"><a href="#">@anotherwebstorm</a> check the new HTML5 and CSS3 template you have. It’s an awesome template for a Web Development Studio. <a href="#">http://t.co/uNT6KyU0</a> - about 2 hours ago</p>
+		<div class="center  clearfix twit" id="twit">
+			<span class="twit-icon"></span>
+			<div class="cap"><a href="#">@anotherwebstorm</a> check the new HTML5 and CSS3 template you have. It’s an awesome template for a Web Development Studio. <a href="#">http://t.co/uNT6KyU0</a> - about 2 hours ago</div>
 		</div><!--twit-->
 		<div class="home-link center">
 			<a href="#logo">Back to top</a>
@@ -183,10 +182,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="copyright center">
-		<span class="foot-logo"></span>
-		Copyright © 2011 The Predators Studio. All Rights Reserved.<br>
-		Custom HTML5 Theme Design and Development by anotherwebstorm</div>
+		<div class="copyright center ">
+		<div class="copyright-wrap clearfix">
+			<span class="foot-logo"></span>
+			<div>
+				<p>Copyright © 2011 The Predators Studio. All Rights Reserved. Custom HTML5 Theme Design and Development by anotherwebstorm</p>
+			</div>
+		</div>
+		</div>
 	</footer>
 	<!--Popup-->
 	 <div id="openModal">
