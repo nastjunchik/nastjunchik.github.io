@@ -321,6 +321,7 @@ background-position: -80px 9px;
 	width:100%;
 	min-height: 1px;
 	padding:135px 0 130px;
+	background-size: cover;
 }
 
 /*Contact*/
