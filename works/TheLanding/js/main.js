@@ -1,10 +1,10 @@
-$(function(){
+$(document).ready(function(){
 	$('.p-img').hover(function(){
 		$(this).children('a').fadeToggle();
 	});
 });
 
-$(function(){
+$(document).ready(function(){
 	$('.person-img').hover(function(){
 		$(this).children('a').fadeToggle();
 	});
