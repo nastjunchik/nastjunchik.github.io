@@ -346,7 +346,9 @@ a h2:hover{
 	vertical-align: middle;
 }
 
-
+.news-item-ajax{
+	display: none;
+}
 .news-item{
 	border-left:5px solid #ce4e32;
 	background: #fff;
@@ -432,7 +434,7 @@ a h5{
 	width: 100%;
 	text-align: center;
 }
-.news .btn{
+#btn{
 	text-transform: uppercase;
 	color:#bdbdbd;
 	font-size:14px;
