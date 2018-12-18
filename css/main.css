@@ -63,6 +63,8 @@ h1{
 
 html, body{
 	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .logo{
@@ -87,7 +89,7 @@ html, body{
 }
 
 .header{
-	background: url(../img/img1.jpg) center no-repeat;
+	background: url(../img/img1.jpg) 0 center no-repeat;
 	background-size: cover;
 	
 	max-height: 960px;
@@ -113,5 +115,41 @@ html, body{
 	}
 }
 
+header .iPhone{
+	position: absolute;
+	bottom: -226px;
+	right: 118px;
+}
 
+/*Main*/
 
+main .promo{
+	margin-top: 105px;
+}
+
+main .promo h2{
+	font-size: 35px;
+	color:#222626;
+	font-weight: 100;
+	margin-bottom: 1.7rem;
+}
+main .promo p{
+	color: #959595;
+	line-height: 1.75;
+	margin-bottom: 1.6rem;
+}
+
+@media (max-width:1045px){
+	header .iPhone{
+		right: 5%;
+	}
+	main .promo{
+		margin-top: 40px;
+	}
+}
+
+@media (max-width:992px){
+	header .iPhone{
+		display: none;
+	}
+}
