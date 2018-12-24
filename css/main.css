@@ -89,7 +89,7 @@ html, body{
 }
 
 .header{
-	background: url(../img/img1.jpg) 0 center no-repeat;
+	background: url(../img/img1.jpg) center no-repeat;
 	background-size: cover;
 	
 	max-height: 960px;
@@ -152,4 +152,62 @@ main .promo p{
 	header .iPhone{
 		display: none;
 	}
+}
+
+/*Box Grid*/
+
+main .box-grid,
+main .box-grid a,
+main .box-grid a:hover{
+	color: #fff;
+}
+
+main .box-grid .row{
+	margin-right: 0; 
+	margin-left: 0;
+}
+
+main .box-grid .row > div{
+	padding: 44px 40px 53px 43px;
+}
+
+main .box-grid .first{
+	background: #f5989d;
+}
+main .box-grid .second{
+	background: #615f7d;
+}
+main .box-grid .third{
+	background: url(../img/img2.jpg) center no-repeat;
+	background-size: cover;
+}
+main .box-grid .fourth{
+	background: url(../img/img3.jpg) center no-repeat;
+	background-size: cover;
+}
+main .box-grid .fifth{
+	background: #82ca9c;
+}
+
+.box-grid .body{
+	height: calc(100% - 20px);
+}
+
+main .box-grid h3{
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1.2;
+	margin-bottom: 17px;
+}
+
+main .box-grid a{
+	font-size: 14px;
+	font-weight: 700;
+}
+main .box-grid a:hover{
+	text-decoration: none;
+}
+
+main .box-grid a span{
+	margin-left: 11px;
 }
